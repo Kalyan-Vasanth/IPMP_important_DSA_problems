@@ -17,6 +17,7 @@ void uni(vector<int>&v1, vector<int>&v2) {
     if(s.size()==0) cout<<"No union elements ";
     else for(auto nums: s) cout << nums << " ";
     cout << endl;
+    // if u want to keep the elements in the same order u can use unordered_set
 }
 
 void intersection(vector<int>& nums1, vector<int>& nums2) {
